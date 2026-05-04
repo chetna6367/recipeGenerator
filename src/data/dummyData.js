@@ -2,7 +2,7 @@ export const dummyUser = {
     id: 1,
     name: 'John Doe',
     email: 'john.doe@example.com',
-    created_at: '2024-01-15T10:30:00Z'
+    created_at: '2026-05-03T10:30:00Z'
 };
 
 export const dummyPreferences = {
@@ -38,7 +38,7 @@ export const dummyRecipes = [
         dietary_tags: ['Vegetarian'],
         user_notes: null,
         image_url: null,
-        created_at: '2024-02-01T14:20:00Z',
+        created_at: '2026-05-03T10:30:00Z',
         calories: 450,
         ingredients: [
             { name: 'Pasta', quantity: 400, unit: 'g' },
@@ -80,7 +80,7 @@ export const dummyRecipes = [
         dietary_tags: ['Vegan', 'Gluten-Free'],
         user_notes: 'Adjust chili paste to taste',
         image_url: null,
-        created_at: '2024-02-03T09:15:00Z',
+        created_at: '2026-05-03T10:30:00Z',
         calories: 220,
         ingredients: [
             { name: 'Bell Peppers', quantity: 2, unit: 'pieces' },
@@ -125,7 +125,7 @@ export const dummyRecipes = [
         dietary_tags: ['Vegetarian', 'Gluten-Free'],
         user_notes: null,
         image_url: null,
-        created_at: '2024-02-05T11:30:00Z',
+        created_at: '2026-05-03T10:30:00Z',
         calories: 380,
         ingredients: [
             { name: 'Quinoa', quantity: 200, unit: 'g' },
@@ -170,7 +170,7 @@ export const dummyRecipes = [
         dietary_tags: ['Vegetarian'],
         user_notes: 'Use a pizza stone for best results',
         image_url: null,
-        created_at: '2024-02-07T16:45:00Z',
+        created_at: '2026-05-03T10:30:00Z',
         calories: 520,
         ingredients: [
             { name: 'Pizza Dough', quantity: 500, unit: 'g' },
@@ -212,7 +212,7 @@ export const dummyRecipes = [
         dietary_tags: ['Vegan', 'Gluten-Free'],
         user_notes: null,
         image_url: null,
-        created_at: '2024-02-09T13:20:00Z',
+        created_at: '2026-05-03T10:30:00Z',
         calories: 340,
         ingredients: [
             { name: 'Chickpeas', quantity: 400, unit: 'g' },
@@ -244,9 +244,9 @@ export const dummyPantryItems = [
         quantity: 6,
         unit: 'pieces',
         category: 'Vegetables',
-        expiry_date: '2024-02-20',
+        expiry_date: '2026-05-20',
         is_running_low: false,
-        created_at: '2024-02-01T10:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 2,
@@ -257,7 +257,7 @@ export const dummyPantryItems = [
         category: 'Grains',
         expiry_date: null,
         is_running_low: false,
-        created_at: '2024-02-01T10:05:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 3,
@@ -266,9 +266,9 @@ export const dummyPantryItems = [
         quantity: 1,
         unit: 'pieces',
         category: 'Vegetables',
-        expiry_date: '2024-02-15',
+        expiry_date: '2026-05-15',
         is_running_low: true,
-        created_at: '2024-02-01T10:10:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 4,
@@ -277,9 +277,9 @@ export const dummyPantryItems = [
         quantity: 500,
         unit: 'ml',
         category: 'Other',
-        expiry_date: '2024-06-30',
+        expiry_date: '2026-06-30',
         is_running_low: false,
-        created_at: '2024-02-01T10:15:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 5,
@@ -288,9 +288,9 @@ export const dummyPantryItems = [
         quantity: 1,
         unit: 'cups',
         category: 'Spices',
-        expiry_date: '2024-02-12',
+        expiry_date: '2026-02-12',
         is_running_low: false,
-        created_at: '2024-02-05T09:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 6,
@@ -299,9 +299,9 @@ export const dummyPantryItems = [
         quantity: 200,
         unit: 'g',
         category: 'Dairy',
-        expiry_date: '2024-03-01',
+        expiry_date: '2026-05-15',
         is_running_low: false,
-        created_at: '2024-02-01T10:20:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 7,
@@ -310,9 +310,9 @@ export const dummyPantryItems = [
         quantity: 3,
         unit: 'pieces',
         category: 'Vegetables',
-        expiry_date: '2024-02-18',
+        expiry_date: '2026-05-18',
         is_running_low: false,
-        created_at: '2024-02-03T11:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 8,
@@ -323,7 +323,7 @@ export const dummyPantryItems = [
         category: 'Grains',
         expiry_date: null,
         is_running_low: false,
-        created_at: '2024-02-01T10:25:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 9,
@@ -332,9 +332,9 @@ export const dummyPantryItems = [
         quantity: 800,
         unit: 'g',
         category: 'Grains',
-        expiry_date: '2024-12-31',
+        expiry_date: '2026-05-31',
         is_running_low: false,
-        created_at: '2024-02-01T10:30:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 10,
@@ -343,9 +343,9 @@ export const dummyPantryItems = [
         quantity: 400,
         unit: 'ml',
         category: 'Dairy',
-        expiry_date: '2024-04-15',
+        expiry_date: '2026-05-15',
         is_running_low: false,
-        created_at: '2024-02-01T10:35:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 11,
@@ -356,7 +356,7 @@ export const dummyPantryItems = [
         category: 'Vegetables',
         expiry_date: null,
         is_running_low: false,
-        created_at: '2024-02-01T10:40:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 12,
@@ -365,9 +365,9 @@ export const dummyPantryItems = [
         quantity: 5,
         unit: 'pieces',
         category: 'Vegetables',
-        expiry_date: '2024-02-25',
+        expiry_date: '2026-05-25',
         is_running_low: false,
-        created_at: '2024-02-01T10:45:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 13,
@@ -376,9 +376,9 @@ export const dummyPantryItems = [
         quantity: 250,
         unit: 'ml',
         category: 'Other',
-        expiry_date: '2025-01-01',
+        expiry_date: '2026-05-25',
         is_running_low: true,
-        created_at: '2024-02-01T10:50:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 14,
@@ -387,9 +387,9 @@ export const dummyPantryItems = [
         quantity: 100,
         unit: 'g',
         category: 'Spices',
-        expiry_date: '2024-02-22',
+        expiry_date: '2026-06-22',
         is_running_low: false,
-        created_at: '2024-02-01T10:55:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 15,
@@ -398,9 +398,9 @@ export const dummyPantryItems = [
         quantity: 150,
         unit: 'g',
         category: 'Dairy',
-        expiry_date: '2024-02-28',
+        expiry_date: '2026-05-28',
         is_running_low: false,
-        created_at: '2024-02-05T12:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     }
 ];
 
@@ -410,73 +410,73 @@ export const dummyMealPlans = [
         id: 1,
         user_id: 1,
         recipe_id: 1,
-        meal_date: '2024-02-12',
+        meal_date: '2026-05-12',
         meal_type: 'dinner',
         recipe_name: 'Creamy Tomato Basil Pasta',
         image_url: null,
         prep_time: 10,
         cook_time: 20,
-        created_at: '2024-02-10T14:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 2,
         user_id: 1,
         recipe_id: 3,
-        meal_date: '2024-02-13',
+        meal_date: '2026-07-13',
         meal_type: 'lunch',
         recipe_name: 'Mediterranean Quinoa Bowl',
         image_url: null,
         prep_time: 10,
         cook_time: 20,
-        created_at: '2024-02-10T14:05:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 3,
         user_id: 1,
         recipe_id: 2,
-        meal_date: '2024-02-13',
+        meal_date: '2026-05-13',
         meal_type: 'dinner',
         recipe_name: 'Spicy Thai Vegetable Stir-Fry',
         image_url: null,
         prep_time: 15,
         cook_time: 15,
-        created_at: '2024-02-10T14:10:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 4,
         user_id: 1,
         recipe_id: 5,
-        meal_date: '2024-02-14',
+        meal_date: '2026-05-14',
         meal_type: 'dinner',
         recipe_name: 'Chickpea Curry',
         image_url: null,
         prep_time: 10,
         cook_time: 25,
-        created_at: '2024-02-10T14:15:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 5,
         user_id: 1,
         recipe_id: 4,
-        meal_date: '2024-02-15',
+        meal_date: '2026-05-15',
         meal_type: 'dinner',
         recipe_name: 'Classic Margherita Pizza',
         image_url: null,
         prep_time: 90,
         cook_time: 15,
-        created_at: '2024-02-10T14:20:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 6,
         user_id: 1,
         recipe_id: 1,
-        meal_date: '2024-02-16',
+        meal_date: '2026-05-16',
         meal_type: 'lunch',
         recipe_name: 'Creamy Tomato Basil Pasta',
         image_url: null,
         prep_time: 10,
         cook_time: 20,
-        created_at: '2024-02-10T14:25:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     }
 ];
 
@@ -490,7 +490,7 @@ export const dummyShoppingListItems = [
         category: 'Dairy',
         is_checked: false,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:00:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 2,
@@ -501,7 +501,7 @@ export const dummyShoppingListItems = [
         category: 'Dairy',
         is_checked: false,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:05:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 3,
@@ -512,7 +512,7 @@ export const dummyShoppingListItems = [
         category: 'Grains',
         is_checked: true,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:10:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 4,
@@ -523,7 +523,7 @@ export const dummyShoppingListItems = [
         category: 'Vegetables',
         is_checked: false,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:15:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 5,
@@ -534,7 +534,7 @@ export const dummyShoppingListItems = [
         category: 'Vegetables',
         is_checked: false,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:20:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 6,
@@ -545,7 +545,7 @@ export const dummyShoppingListItems = [
         category: 'Fruits',
         is_checked: false,
         from_meal_plan: false,
-        created_at: '2024-02-10T15:25:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 7,
@@ -556,7 +556,7 @@ export const dummyShoppingListItems = [
         category: 'Vegetables',
         is_checked: true,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:30:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     },
     {
         id: 8,
@@ -567,7 +567,7 @@ export const dummyShoppingListItems = [
         category: 'Other',
         is_checked: false,
         from_meal_plan: true,
-        created_at: '2024-02-10T15:35:00Z'
+        created_at: '2026-05-03T10:30:00Z'
     }
 ];
 
