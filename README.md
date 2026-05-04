@@ -97,4 +97,5 @@ This project is open-source and free to use.
 
 ---
 <img width="1903" height="910" alt="image" src="https://github.com/user-attachments/assets/bfb805ab-2d92-4250-a6f2-cb2babeae5ed" />
+<img width="1895" height="903" alt="image" src="https://github.com/user-attachments/assets/e01af104-b0fb-4dec-aa62-0e3c81e207ac" />
 
